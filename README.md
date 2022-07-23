@@ -1,7 +1,7 @@
 
 # 👍 count_steam_rep
 [![build](https://github.com/Vazno/count_steam_rep/actions/workflows/main.yml/badge.svg)](https://github.com/Vazno/count_steam_rep/actions/workflows/main.yml)
-Count steam reputation for given steam profile
+#### Count steam reputation for given steam profile
 
 ## Usage:
 - First:
