@@ -1,3 +1,4 @@
+import argparse
 import requests
 import re
 def count_steam_rep(steam_url: str) -> int:
@@ -15,3 +16,10 @@ def count_steam_rep(steam_url: str) -> int:
 			elif re.match(r"(?:[-][\s]+|[-]|minus[\s]+)(?:reputation|rep)", comment):
 				reputation -= 1
 	return reputation
+
+if __name__ == "__main__":
+	description = '''--- Steam reputation counter ---'''
+	parser = argparse.ArgumentParser(description=description)
+	parser.add_argument("-url", "--steam_url", type=str, required=True)
+	args = parser.parse_args()
+	print(count_steam_rep(args.steam_url))
