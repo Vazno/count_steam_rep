@@ -28,5 +28,5 @@ Then finds comments using this re pattern:
 #### Negative reputation (minus 1)
 - `(?:[-][\s]+|[-]|minus[\s]+)(?:reputation|rep)`
 
-## 🔑 License :
+## 🔑 License:
 [MIT](https://choosealicense.com/licenses/mit/) - Beksultan Artykbaev
