@@ -6,13 +6,7 @@
 ## Usage:
 - First:
 ```
-usage: count_steam_rep.py [-h] -url STEAM_URL
-
---- Steam reputation counter ---
-
-options:
-  -h, --help            show this help message and exit
-  -url STEAM_URL, --steam_url STEAM_URL
+usage: count_steam_rep.py STEAM_USER_URL
 ```
 - Second:
 ```python
